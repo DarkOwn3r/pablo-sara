@@ -1,3 +1,4 @@
 export function kata() {
-  // TODO!
+  const p = document.querySelector("section:nth-of-type(2) > p");
+  p.classList.add("star-wars");
 }
