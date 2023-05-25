@@ -46,12 +46,11 @@ const article3 = `<article>
 </div>
 </article>`
 
-const articles = [article1, article2, article3];
+const articlesList = [article1, article2, article3]
+const articles = articlesList.join('\n')
 
 const page = `<main>
-${article1}
-${article2}
-${article3}
+${articles}
 </main>`;
 
 export function kata() {
